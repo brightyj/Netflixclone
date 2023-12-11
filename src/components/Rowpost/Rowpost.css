@@ -1,0 +1,54 @@
+
+.row {
+    margin-left: 20px;
+    margin-right: 20px;
+    background: black; /* Set the background color for the entire row */
+    
+    
+  }
+  
+  h1 {
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  .poster {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+  
+  }
+  
+  
+  .poster::-webkit-scrollbar {
+    display: none; /* Webkit */
+  }
+  
+  .POST {
+    width: 100%;
+    object-fit: contain;
+    max-height: 100px;
+    margin-right: 10px;
+    transition: transform 450ms;
+  }
+  
+  .POST:hover {
+    transform: scale(1.08);
+    opacity: 1;
+  }
+  
+  .smallposter {
+    max-height: 100px;
+    object-fit: contain;
+    margin-right: 10px;
+    transition: transform 450ms;
+  }
+  
+  .smallposter:hover {
+    transform: scale(1.08);
+    opacity: 1;
+  }
+  

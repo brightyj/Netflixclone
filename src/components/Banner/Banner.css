@@ -1,0 +1,56 @@
+.Banner
+{
+    color:white;
+    object-fit:contain;
+    background-image: url("C:\Users\LIL CHAMP\OneDrive\Desktop\REACTJS\netflixproject\src\assests\banner\moneybanner.jpg");  
+    height:750px;
+    background-size: cover;
+    width:100%;
+    padding-left: 5%;
+}
+.content
+{
+    padding-top: 140px;;
+}
+.Title
+{
+    font-size:3rem;
+    font-weight:bolder;
+}
+.button
+{
+    color:rgb(252, 234, 234);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    padding:2rem ;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-right: 1rem;
+    background-color:rgba(51,51,51,0.5);
+    cursor:pointer;
+}
+.button:hover{
+    color:black;
+    background-color: #e6e6e6;
+}
+.description {
+    color: white;
+    font-size: 1.2rem;
+    max-width: 600px; /* Adjust as needed */
+    line-height: 1.3;
+    margin-top: 15px;
+  }
+  h1.Title {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    max-width: 600px; /* Adjust as needed */
+    line-height: 1.1;
+  }
+.fade_bottom {
+    height: 2rem;
+    background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.61), #111);
+}

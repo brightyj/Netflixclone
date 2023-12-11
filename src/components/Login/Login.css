@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+   /* background-image: url('C:\Users\LIL CHAMP\OneDrive\Desktop\REACTJS\netflixproject\src\assests\banner\netflix-icon.png');*/
+    color: #fff;
+    
+  }
+    
+  .login-container {
+    background-image: url("C:\Users\LIL CHAMP\OneDrive\Desktop\REACTJS\netflixproject\src\assests\banner\netflix-icon.png");
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    height: 100vh;
+    
+  }
+  
+  .login-form {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background: #111;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-right: 20px;
+  }
+  
+  h2 {
+    color: #e50914;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    font-family:'Bebas Neue';
+  }
+  
+  .form {
+    margin-bottom: 20px;
+    
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .error {
+    color: #ff3333;
+    font-size: 14px;
+    margin-top: 5px;
+    display: block;
+  }
+  
+  button {
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff1e00;
+  }
